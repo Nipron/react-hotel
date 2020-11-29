@@ -7,8 +7,8 @@ function Error(props) {
     return (
         <Hero>
             <Banner title='404' subtitle='page not found'>
-                <Link to='/' className="btn-primary">
-                    return home
+                <Link to='/' classNa me="btn-primary">
+                    return hhome
                 </Link>
             </Banner>
         </Hero>
