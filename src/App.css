@@ -163,8 +163,8 @@ h6 {
 /* Hero */
 .defaultHero,
 .roomsHero {
-  min-height: calc(100vh - 66px);
-  background: url("./images/defaultBcg.jpeg") left/cover no-repeat;
+  min-height: 60vh;
+  background: url("./images/goldlip.jpg") left/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -306,6 +306,7 @@ h6 {
 .room {
   box-shadow: var(--lightShadow);
   transition: var(--mainTransition);
+  max-width: 20vw;
 }
 .room:hover {
   box-shadow: var(--darkShadow);
@@ -315,6 +316,7 @@ h6 {
   position: relative;
 }
 .img-container img {
+  min-height: 156px;
   width: 100%;
   display: block;
   transition: var(--mainTransition);
