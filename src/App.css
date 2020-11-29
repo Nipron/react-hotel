@@ -306,7 +306,6 @@ h6 {
 .room {
   box-shadow: var(--lightShadow);
   transition: var(--mainTransition);
-  max-width: 20vw;
 }
 .room:hover {
   box-shadow: var(--darkShadow);
