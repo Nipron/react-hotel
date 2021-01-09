@@ -9,8 +9,8 @@ export default function Home() {
     return (
         <>
             <Hero hero="defaultHero">
-                <Banner title="можно ещё котлетку?"
-                        subtitle="deluxe rooms starting at $299">
+                <Banner title="Indigo Бельё"
+                        subtitle="Качественное бельё собственного проиводства от $39">
                     <Link to='/rooms' className="btn-primary">
                         our rooms
                     </Link>

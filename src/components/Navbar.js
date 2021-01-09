@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import logo from '../images/NipronLogo.png';
+import logo from '../images/linens.gif';
 import {FaAlignRight} from "react-icons/all";
 import {Link} from 'react-router-dom'
 
