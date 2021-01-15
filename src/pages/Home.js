@@ -9,8 +9,8 @@ export default function Home() {
     return (
         <>
             <Hero hero="defaultHero">
-                <Banner title="Indigo Бельё"
-                        subtitle="Качественное бельё собственного проиводства от $39">
+                <Banner title="Syndicate Yaremche"
+                        subtitle="Winter vacation in Yaremche from $12,99">
                     <Link to='/rooms' className="btn-primary">
                         our rooms
                     </Link>
