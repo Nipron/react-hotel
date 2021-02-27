@@ -7,7 +7,7 @@ const weatherInstance = axios.create({
 
 export const weatherAPI = {
     getWeather(city = 'Kyiv') {
-        return weatherInstance.get(`weather?q=HradecKralove&appid=fa65020783637f29a81de704289519e0`)
+        return weatherInstance.get(`weather?q=${city}&appid=fa65020783637f29a81de704289519e0`)
             .then(response => {
                 return response.data
             });
