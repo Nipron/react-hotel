@@ -8,7 +8,7 @@ class Navbar extends Component {
 
     state = {
         isOpen: false,
-        CityName: 'Yaremche',
+        CityName: 'Hradec Kralove',
         CityTemp: '280',
         CityIcon: '13d'
     }
@@ -46,7 +46,7 @@ class Navbar extends Component {
                         </li>
                     </ul>
                     <div className="weather">
-                        <span>Yaremche {Math.round(this.state.CityTemp - 273.15)}{/*{'\u2103'}*/} </span>
+                        <span>Hradec Kralove {Math.round(this.state.CityTemp - 273.15)}{/*{'\u2103'}*/} </span>
                         <img src={`https://openweathermap.org/img/wn/${this.state.CityIcon}@2x.png`}/>
                     </div>
                 </div>
